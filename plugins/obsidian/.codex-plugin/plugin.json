@@ -1,0 +1,43 @@
+{
+  "name": "obsidian",
+  "version": "1.0.0",
+  "description": "Connect Codex to a local Obsidian vault through the Semantic Notes Vault MCP plugin.",
+  "author": {
+    "name": "Local"
+  },
+  "homepage": "https://obsidian.md/",
+  "repository": "https://github.com/aaronsb/obsidian-mcp-plugin",
+  "license": "MIT",
+  "keywords": [
+    "obsidian",
+    "mcp",
+    "notes",
+    "knowledge-base",
+    "vault"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Obsidian",
+    "shortDescription": "Read and edit an Obsidian vault through MCP",
+    "longDescription": "Obsidian connects Codex to your local Obsidian vault through the Semantic Notes Vault MCP community plugin running inside Obsidian.",
+    "developerName": "Local",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://obsidian.md/",
+    "privacyPolicyURL": "https://obsidian.md/privacy",
+    "termsOfServiceURL": "https://obsidian.md/terms",
+    "defaultPrompt": [
+      "List notes in my Obsidian vault",
+      "Create a note in Obsidian",
+      "Search my Obsidian notes"
+    ],
+    "brandColor": "#7C3AED",
+    "composerIcon": "./assets/obsidian-official.svg",
+    "logo": "./assets/obsidian-official.svg",
+    "screenshots": []
+  }
+}

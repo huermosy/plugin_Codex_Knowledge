@@ -1,0 +1,41 @@
+{
+  "name": "notion",
+  "version": "1.0.0",
+  "description": "Connect Codex to Notion through the Notion MCP server.",
+  "author": {
+    "name": "Local"
+  },
+  "homepage": "https://www.notion.com/",
+  "repository": "https://www.notion.com/",
+  "license": "Proprietary",
+  "keywords": [
+    "notion",
+    "mcp",
+    "workspace",
+    "docs"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Notion",
+    "shortDescription": "Use Notion workspace content from Codex",
+    "longDescription": "Notion connects Codex to your Notion workspace through the Notion MCP server. Use it to search, fetch, create, update, and organize Notion pages and databases when authorization is available.",
+    "developerName": "Local",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.notion.com/",
+    "privacyPolicyURL": "https://www.notion.com/help/security-and-privacy",
+    "termsOfServiceURL": "https://www.notion.com/notion/Terms-and-Privacy-28ffdd083dc3473e9c2da6ec011b58ac",
+    "defaultPrompt": [
+      "Search my Notion workspace",
+      "Create a Notion page from this chat",
+      "Update a Notion database item"
+    ],
+    "brandColor": "#111111",
+    "composerIcon": "./assets/notion-logo.png",
+    "logo": "./assets/notion-logo.png",
+    "screenshots": []
+  }
+}

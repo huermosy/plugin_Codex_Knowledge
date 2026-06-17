@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+
+# Local credentials and per-machine MCP overrides
+plugins/*/.mcp.local.json
+
+# Python cache
+__pycache__/
+*.pyc

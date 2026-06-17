@@ -1,0 +1,43 @@
+{
+  "name": "notebooklm",
+  "version": "1.0.0+codex.20260617113516",
+  "description": "Connect Codex to NotebookLM through the notebooklm-mcp-cli community MCP server.",
+  "author": {
+    "name": "Local"
+  },
+  "homepage": "https://notebooklm.google.com/",
+  "repository": "https://github.com/jacob-bd/notebooklm-mcp-cli",
+  "license": "MIT",
+  "keywords": [
+    "notebooklm",
+    "hermes",
+    "mcp",
+    "notes",
+    "research"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "NotebookLM",
+    "shortDescription": "Automate NotebookLM notebooks and notes",
+    "longDescription": "NotebookLM connects Codex to NotebookLM through the notebooklm-mcp-cli community MCP server. Use it for workflows such as creating notebooks, importing sources, and creating or updating notes after NotebookLM authentication is configured.",
+    "developerName": "Local",
+    "category": "Research",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://notebooklm.google.com/",
+    "privacyPolicyURL": "https://policies.google.com/privacy",
+    "termsOfServiceURL": "https://policies.google.com/terms",
+    "defaultPrompt": [
+      "Create a NotebookLM notebook",
+      "Import sources into NotebookLM",
+      "Create a note in NotebookLM"
+    ],
+    "brandColor": "#1A73E8",
+    "composerIcon": "./assets/notebooklm-icon.png",
+    "logo": "./assets/notebooklm-icon.png",
+    "screenshots": []
+  }
+}
