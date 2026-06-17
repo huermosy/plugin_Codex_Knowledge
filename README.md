@@ -6,6 +6,10 @@ This repository packages three personal Codex plugins so they can be moved to an
 - `notion`
 - `obsidian`
 
+An evaluation report for the current plugin set is available here:
+
+- `PLUGIN_SCORE_REPORT.md`
+
 The repository is portable by design:
 
 - no machine-local absolute paths are committed
